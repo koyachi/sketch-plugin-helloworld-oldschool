@@ -4,8 +4,12 @@ Helloworld, old school style.
 
 This is a playground plugin for learning how to integrate the Sketch plugin update system with old school plugins (that written with cocoascript).
 
-# 試したこと
+# Why?
+Sketch ver.45以前向けに作らたプラグインをプラグイン更新通知に対応させ、できるだけ新しいプラグインを使ってもらいたい。
+https://sketchplugins.com/d/229-updating-plugins
+https://developer.sketchapp.com/guides/publishing-plugins/
 
+# 試したこと
 - ステップ1(v0.0.1)
   - 既存pluginを参考に、cocoascriptで最低限のコードを書く
   - githubにpush
@@ -22,3 +26,7 @@ This is a playground plugin for learning how to integrate the Sketch plugin upda
     => されなかった
 
 おそらく、Sketch起動時に https://github.com/sketchplugins/plugin-directory と同等の内容をチェックしてるのではないかと思われる。正式に登録されたプラグインでないと更新の動作を確認できなさそう。
+
+# 参考
+- https://github.com/einancunlu/Checkpoints-Plugin-for-Sketch
+- https://github.com/sketchplugins/plugin-directory
