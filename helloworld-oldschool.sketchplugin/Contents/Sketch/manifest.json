@@ -1,0 +1,26 @@
+{
+  "name": "hello world plugin",
+  "description": "Hello wrold ,old school",
+  "author": "koyachi",
+  "homepage": "https://github.com/koyachi/sketch-plugin-helloworld-oldschool/",
+  "version": "0.0.1",
+  "appcast": "https://raw.githubusercontent.com/koyachi/sketch-plugin-helloworld-oldschool/tree/master/helloworld-oldschool.sketchplugin/Contents/Sketch/appcast.xml",
+  "identifier": "com.github.koyachi.sketch-plugin-hello-world-oldschool",
+  "updateURL": "",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "my-command-identifier",
+      "handler": "helloworld",
+      "script": "my-command.cocoascript"
+    }
+  ],
+  "menu": {
+    "title": "helloworld Plugin",
+    "items": [
+      "my-command-identifier"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hello world old school Plugin</title>
+    <link>https://raw.githubusercontent.com/koyachi/sketch-plugin-helloworld-oldschool/tree/master/helloworld-oldschool.sketchplugin/Contents/Sketch/appcast.xml</link>
+    <description>Hello world, old school</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.0.1</title>
+      <description>
+        <![CDATA[
+            <ul>
+              <li>First release</li>
+            </ul>
+          ]]>
+      </description>
+      <enclosure url="https://github.com/koyachi/skech-plugin-helloworld-oldschool/releases/download/0.0.1/helloworld-oldschool.sketchplugin.zip" sparkle:version="0.0.1"/>
+    </item>
+  </channel>
+</rss>

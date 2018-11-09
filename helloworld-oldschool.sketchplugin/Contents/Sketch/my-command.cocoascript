@@ -1,0 +1,11 @@
+function showAlert(message, context) {
+    var alert = NSAlert.alloc().init()
+    var plugin = context.plugin
+    alert.setMessageText(message)
+    alert.addButtonWithTitle("OK")
+    alert.runModal()
+}
+
+var helloworld = function(context) {
+    showAlert("hello, world! old school", context);
+};
