@@ -6,8 +6,8 @@ This is a playground plugin for learning how to integrate the Sketch plugin upda
 
 # Why?
 Sketch ver.45以前向けに作らたプラグインをプラグイン更新通知に対応させ、できるだけ新しいプラグインを使ってもらいたい。
-https://sketchplugins.com/d/229-updating-plugins
-https://developer.sketchapp.com/guides/publishing-plugins/
+- https://sketchplugins.com/d/229-updating-plugins
+- https://developer.sketchapp.com/guides/publishing-plugins/
 
 # 試したこと
 - ステップ1(v0.0.1)
