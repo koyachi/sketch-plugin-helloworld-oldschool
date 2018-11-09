@@ -7,5 +7,5 @@ function showAlert(message, context) {
 }
 
 var helloworld = function(context) {
-    showAlert("hello, world! old school", context);
+    showAlert("hello, world! old school v0.0.2!!", context);
 };

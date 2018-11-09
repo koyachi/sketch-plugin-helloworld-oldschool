@@ -16,5 +16,16 @@
       </description>
       <enclosure url="https://github.com/koyachi/skech-plugin-helloworld-oldschool/releases/download/0.0.1/helloworld-oldschool.sketchplugin.zip" sparkle:version="0.0.1"/>
     </item>
+    <item>
+      <title>Version 0.0.2</title>
+      <description>
+        <![CDATA[
+            <ul>
+              <li>Fix alert message</li>
+            </ul>
+          ]]>
+      </description>
+      <enclosure url="https://github.com/koyachi/skech-plugin-helloworld-oldschool/releases/download/0.0.2/helloworld-oldschool.sketchplugin.zip" sparkle:version="0.0.2"/>
+    </item>
   </channel>
 </rss>
